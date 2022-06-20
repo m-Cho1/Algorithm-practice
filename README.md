@@ -1,3 +1,3 @@
-# ajax-project
+# Algorithm Challenge Practice
 
-A dynamic HTML, CSS, and JavaScript solo project.
+This repository is for practicing algorithm challenges
