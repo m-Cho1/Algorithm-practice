@@ -11,7 +11,7 @@ function checkDuplicate(nums) {
   }
 }
 
-checkDuplicate([1, 1, 2, 3]);
+checkDuplicate([1, 2, 3]);
 
 // - create new Set object of input nums
 // - check if the size of Set object is match with the nums length.
