@@ -9,3 +9,5 @@ function count(string) {
   });
   return count;
 }
+
+console.log(`count(abba) will return {a: 2, b: 2} ${count('abba')}`);
