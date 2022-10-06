@@ -1,5 +1,5 @@
 /**
- *
+ * convert given string to camel case, removing dashes
  */
 
 function toCamelCase(str) {
