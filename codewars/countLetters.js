@@ -1,0 +1,16 @@
+/**
+ * count target letter from the input string
+ * return numbers from counting target letter
+ */
+
+function countLetters(str, letter) {
+  let count = 0;
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] === letter) {
+      count++;
+    }
+  }
+  return count;
+}
+
+console.log(`countLetters('mississippi', 's') will return 4 | ${countLetters('mississippi', 's')}`);
