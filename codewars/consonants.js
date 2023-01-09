@@ -28,3 +28,5 @@ function countConsonants(str) {
   }
   return result.length;
 }
+
+console.log(`countConsoants(how many consonants are there in this sentence?) will return 9 |${countConsonants('how many consonants are there in this sentence?')}`);
