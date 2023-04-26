@@ -3,7 +3,12 @@
  */
 
 const helloWorld = () => {
+  // used ASCII table to find each characters, saved them into an array.
   const chars = [72, 101, 108, 108, 111, 44, 32, 87, 111, 114, 108, 100, 33];
+
+  // used fromCharCode method of String to convert the ASCII code into string
+  // then used apply method to call fromCharCode method on chars array.
+  // store the result into result variable, then return
   const result = String.fromCharCode.apply(null, chars);
   return result;
 };
